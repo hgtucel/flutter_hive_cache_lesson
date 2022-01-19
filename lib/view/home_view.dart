@@ -35,7 +35,6 @@ class _HomeViewState extends State<HomeView> {
   void initState() {
     serviceManager = ServiceManager(Client());
     cacheManager = CacheManager();
-    //fetchDatas();
     super.initState();
   }
 
